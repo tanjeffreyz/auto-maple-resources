@@ -44,7 +44,8 @@
     NineTails
 *, x=0.851, y=0.291, frequency=1, skip=False, adjust=False
     Exorcist, jump=True
-    Teleport, direction=up, jump=False
+    Walk, direction=left, duration=2
+    Tengu
 *, x=0.900, y=0.170, frequency=1, skip=False, adjust=True
     Tengu
 *, x=0.681, y=0.170, frequency=1, skip=False, adjust=False
