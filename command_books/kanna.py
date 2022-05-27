@@ -28,6 +28,7 @@ class Key:
     VANQUISHER = 'f'
     KISHIN = 'ctrl'
     NINE_TAILS = '3'
+    ARACHNID = '4'
     EXORCIST = 'w'
     DOMAIN = 'z'
     ONI_LEGION = '5'
@@ -263,6 +264,13 @@ class NineTails(Command):
 
     def main(self):
         press(Key.NINE_TAILS, 3)
+
+
+class Arachnid(Command):
+    """Uses 'True Arachnid Reflection' once."""
+
+    def main(self):
+        press(Key.ARACHNID, 3)
 
 
 class Exorcist(Command):
