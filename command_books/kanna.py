@@ -23,6 +23,7 @@ class Key:
     # Skills
     SHIKIGAMI = 'r'
     TENGU = 'q'
+	LUCID_SOUL = '1'
     YAKSHA = '2'
     VANQUISHER = 'f'
     KISHIN = 'ctrl'
@@ -191,7 +192,31 @@ class Tengu(Command):
     def main(self):
         press(Key.TENGU, 1, up_time=0.05)
 
+		
+class LucidSoul(Command):
+    """
+    Places 'Lucid Soul Summon' in a given direction, or towards the center of the map if
+    no direction is specified.
+    """
 
+    def __init__(self, direction=None):
+        super().__init__(locals())
+        if direction is None:
+            self.direction = direction
+        else:
+            self.direction = settings.validate_horizontal_arrows(direction)
+
+    def main(self):
+        if self.direction:
+            press(self.direction, 1, down_time=0.1, up_time=0.05)
+        else:
+            if config.player_pos[0] > 0.5:
+                press('left', 1, down_time=0.1, up_time=0.05)
+            else:
+                press('right', 1, down_time=0.1, up_time=0.05)
+        press(Key.LUCID_SOUL, 3)
+		
+		
 class Yaksha(Command):
     """
     Places 'Ghost Yaksha Boss' in a given direction, or towards the center of the map if
