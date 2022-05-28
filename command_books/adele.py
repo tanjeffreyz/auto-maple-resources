@@ -195,8 +195,8 @@ class Resonance(Command):
             time.sleep(0.05)
         press(Key.RESONANCE, num_presses)
         key_up(self.direction)
-		if settings.record_layout:
-            config.layout.add(*config.player_pos)
+        if settings.record_layout:
+	        config.layout.add(*config.player_pos)
 
 class FlashJump(Command):
     """Performs a flash jump in the given direction."""
@@ -245,8 +245,8 @@ class Impale(Command):
             time.sleep(0.05)
         press(Key.IMPALE, num_presses)
         key_up(self.direction)
-		if settings.record_layout:
-            config.layout.add(*config.player_pos)
+        if settings.record_layout:
+	        config.layout.add(*config.player_pos)
 
 
 class Cleave(Command):
