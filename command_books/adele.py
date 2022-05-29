@@ -30,7 +30,7 @@ class Key:
     WEAPON_AURA = 'f9'
     DIVINE_WRATH = 'end'
     GRANDIS_GODDESS = 'page up'
-    LEGACY_RESTORATION = 'pgdn'
+    LEGACY_RESTORATION = 'page down'
 
     # Buffs Toggle
     AETHER_FORGE = 'f10'
