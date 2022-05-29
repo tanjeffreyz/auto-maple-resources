@@ -34,7 +34,7 @@ class Key:
     ONI_LEGION = '5'
     BLOSSOM_BARRIER = 'g'
     YUKIMUSUME = 'c'
-    MANA_BALANCE = 'lshift'
+    MANA_BALANCE = 'shift'
 
 
 #########################

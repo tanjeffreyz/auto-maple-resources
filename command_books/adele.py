@@ -44,7 +44,7 @@ class Key:
     AETHER_BLOOM = 's'
     REIGN_OF_DESTRUCTION = 'd'
     SHARDBREAKER = 'g'
-    MAGIC_DISPATCH = 'lshift'
+    MAGIC_DISPATCH = 'shift'
     TRUE_NOBILITY = 'x'
     GRAVE_PROCLAMATION = 'c'
     BLADE_TORRENT = 'b'
