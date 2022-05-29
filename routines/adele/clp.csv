@@ -1,8 +1,8 @@
 
 @, label=Top
-*, x=0.913, y=0.119, frequency=1, skip=True, adjust=False
 *, x=0.921, y=0.119, frequency=1, skip=True, adjust=False
 *, x=0.770, y=0.097, frequency=1, skip=True, adjust=False
+    Resonance, direction=left, jump=False
 *, x=0.750, y=0.119, frequency=1, skip=False, adjust=False
     NobleSummons
     Impale, direction=left, jump=False
@@ -17,21 +17,24 @@
     BladeTorrent
 *, x=0.278, y=0.119, frequency=1, skip=False, adjust=False
     AetherBloom
+    Resonance, direction=down, jump=False
 
 @, label=Middle
 *, x=0.040, y=0.238, frequency=1, skip=False, adjust=False
     NobleSummons
     Resonance, direction=right, jump=False
 *, x=0.143, y=0.238, frequency=1, skip=True, adjust=False
+    FlashJump, direction=right
 *, x=0.254, y=0.238, frequency=1, skip=False, adjust=False
     HuntingDecree
-*, x=0.300, y=0.238, frequency=1, skip=False, adjust=False
+*, x=0.300, y=0.238, frequency=1, skip=False, adjust=True
     ReignOfDestruction, direction=left
-    InfinityBlade
 *, x=0.484, y=0.238, frequency=1, skip=True, adjust=False
+    InfinityBlade
 *, x=0.500, y=0.238, frequency=1, skip=False, adjust=False
     AetherBloom
 *, x=0.619, y=0.238, frequency=1, skip=True, adjust=False
+    Resonance, direction=down, jump=False
 
 @, label=Main spot
 *, x=0.500, y=0.238, frequency=1, skip=False, adjust=False
@@ -50,6 +53,7 @@
 
 @, label=Bottom
 *, x=0.921, y=0.357, frequency=1, skip=True, adjust=False
+    Resonance, direction=left, jump=False
 *, x=0.770, y=0.357, frequency=1, skip=False, adjust=False
     NobleSummons
     Storm
@@ -65,3 +69,4 @@
     FeatherFloat, jump=True
     Resonance, direction=up, jump=False
 *, x=0.135, y=0.357, frequency=1, skip=True, adjust=False
+    Resonance, direction=right, jump=False
