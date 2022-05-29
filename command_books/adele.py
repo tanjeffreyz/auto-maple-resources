@@ -29,8 +29,8 @@ class Key:
     CONVERSION_OVERDRIVE = 'f8'
     WEAPON_AURA = 'f9'
     DIVINE_WRATH = 'end'
-    GRANDIS_GODDESS = 'pageup'
-    LEGACY_RESTORATION = 'pagedown'
+    GRANDIS_GODDESS = 'page up'
+    LEGACY_RESTORATION = 'pgdn'
 
     # Buffs Toggle
     AETHER_FORGE = 'f10'
