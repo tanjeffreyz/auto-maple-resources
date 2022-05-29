@@ -11,6 +11,7 @@ from src.common.vkeys import press, key_down, key_up
 class Key:
     # Movement
     JUMP = 'space'
+    FLASH_JUMP = 'space'
     IMPALE = '1'
     RESONANCE = '2'
     PLUMMET = 'r'
@@ -28,8 +29,8 @@ class Key:
     CONVERSION_OVERDRIVE = 'f8'
     WEAPON_AURA = 'f9'
     DIVINE_WRATH = 'end'
-    GRANDIS_GODDESS = 'pageup'
-    LEGACY_RESTORATION = 'pagedown'
+    GRANDIS_GODDESS = 'page up'
+    LEGACY_RESTORATION = 'page down'
 
     # Buffs Toggle
     AETHER_FORGE = 'f10'
@@ -74,7 +75,7 @@ def step(direction, target):
             press(Key.JUMP, 3)
         elif direction == 'up':
             press(Key.JUMP, 1)
-    press(Key.RESONANCE, num_presses)
+    press(Key.FLASH_JUMP, num_presses)
 
 
 class Adjust(Command):
@@ -114,7 +115,7 @@ class Adjust(Command):
                 d_y = self.target[1] - config.player_pos[1]
                 if abs(d_y) > settings.adjust_tolerance / math.sqrt(2):
                     if d_y < 0:
-                        Resonance('up').main()
+                        FlashJump('up').main()
                     else:
                         key_down('down')
                         time.sleep(0.05)
@@ -195,7 +196,25 @@ class Resonance(Command):
         press(Key.RESONANCE, num_presses)
         key_up(self.direction)
         if settings.record_layout:
-            config.layout.add(*config.player_pos)
+	        config.layout.add(*config.player_pos)
+
+class FlashJump(Command):
+    """Performs a flash jump in the given direction."""
+
+    def __init__(self, direction):
+        super().__init__(locals())
+        self.direction = settings.validate_arrows(direction)
+
+    def main(self):
+        key_down(self.direction)
+        time.sleep(0.1)
+        press(Key.FLASH_JUMP, 1)
+        if self.direction == 'up':
+            press(Key.FLASH_JUMP, 1)
+        else:
+            press(Key.FLASH_JUMP, 1)
+        key_up(self.direction)
+        time.sleep(0.5)
 			
 class Impale(Command):
     """
@@ -227,7 +246,7 @@ class Impale(Command):
         press(Key.IMPALE, num_presses)
         key_up(self.direction)
         if settings.record_layout:
-            config.layout.add(*config.player_pos)
+	        config.layout.add(*config.player_pos)
 
 
 class Cleave(Command):
