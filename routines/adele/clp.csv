@@ -70,3 +70,5 @@
     Resonance, direction=up, jump=False
 *, x=0.135, y=0.357, frequency=1, skip=True, adjust=False
     Resonance, direction=right, jump=False
+*, x=0.780, y=0.230, frequency=1, skip=True, adjust=False
+    Resonance, direction=up, jump=True
