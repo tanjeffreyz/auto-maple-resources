@@ -1,35 +1,36 @@
 
 @, label=Top
-*, x=0.921, y=0.119, frequency=1, skip=True, adjust=False
-*, x=0.770, y=0.097, frequency=1, skip=True, adjust=False
-    Resonance, direction=left, jump=False
 *, x=0.750, y=0.119, frequency=1, skip=False, adjust=False
     NobleSummons
     Impale, direction=left, jump=False
     Resonance, direction=left, jump=False
     Cleave, direction=left, attacks=1, repetitions=1
-*, x=0.730, y=0.119, frequency=1, skip=True, adjust=False
 *, x=0.619, y=0.119, frequency=1, skip=False, adjust=False
     HuntingDecree
     Resonance, direction=left, jump=False
 *, x=0.508, y=0.119, frequency=1, skip=True, adjust=False
+    Cleave, direction=left, attacks=1, repetitions=1
 *, x=0.452, y=0.119, frequency=1, skip=False, adjust=False
     BladeTorrent
 *, x=0.278, y=0.119, frequency=1, skip=False, adjust=False
     AetherBloom
     Resonance, direction=down, jump=False
+    Cleave, direction=right, attacks=1, repetitions=1
 
 @, label=Middle
 *, x=0.040, y=0.238, frequency=1, skip=False, adjust=False
+    Plummet, jump=False
     NobleSummons
     Resonance, direction=right, jump=False
 *, x=0.143, y=0.238, frequency=1, skip=True, adjust=False
     FlashJump, direction=right
 *, x=0.254, y=0.238, frequency=1, skip=False, adjust=False
-    HuntingDecree
+    Cleave, direction=left, attacks=1, repetitions=1
 *, x=0.300, y=0.238, frequency=1, skip=False, adjust=True
     ReignOfDestruction, direction=left
+    ReignOfDestruction, direction=left
 *, x=0.484, y=0.238, frequency=1, skip=True, adjust=False
+    HuntingDecree
     InfinityBlade
 *, x=0.500, y=0.238, frequency=1, skip=False, adjust=False
     AetherBloom
@@ -41,7 +42,6 @@
     NobleSummons
     Cleave, direction=right, attacks=2, repetitions=1
 *, x=0.500, y=0.238, frequency=1, skip=False, adjust=False
-    HuntingDecree
     Cleave, direction=left, attacks=2, repetitions=1
 *, x=0.500, y=0.238, frequency=1, skip=False, adjust=False
     Shardbreaker, direction=right
@@ -52,23 +52,23 @@
     Resonance, direction=down, jump=False
 
 @, label=Bottom
-*, x=0.921, y=0.357, frequency=1, skip=True, adjust=False
-    Resonance, direction=left, jump=False
+*, x=0.810, y=0.280, frequency=1, skip=False, adjust=False
+    Plummet, jump=False
 *, x=0.770, y=0.357, frequency=1, skip=False, adjust=False
     NobleSummons
     Storm
 *, x=0.690, y=0.357, frequency=1, skip=True, adjust=False
+    Cleave, direction=left, attacks=1, repetitions=1
 *, x=0.550, y=0.357, frequency=1, skip=False, adjust=False
     HuntingDecree
     Ruin
+    Cleave, direction=right, attacks=1, repetitions=1
 *, x=0.437, y=0.357, frequency=1, skip=True, adjust=False
+    Cleave, direction=left, attacks=1, repetitions=1
 *, x=0.476, y=0.357, frequency=1, skip=False, adjust=False
     Cleave, direction=right, attacks=1, repetitions=1
 *, x=0.278, y=0.357, frequency=1, skip=False, adjust=False
     AetherBloom
     FeatherFloat, jump=True
     Resonance, direction=up, jump=False
-*, x=0.135, y=0.357, frequency=1, skip=True, adjust=False
-    Resonance, direction=right, jump=False
-*, x=0.780, y=0.230, frequency=1, skip=True, adjust=False
-    Resonance, direction=up, jump=True
+    Cleave, direction=right, attacks=1, repetitions=1
