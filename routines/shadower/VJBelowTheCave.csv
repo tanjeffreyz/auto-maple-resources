@@ -1,0 +1,40 @@
+*, x=0.210, y=0.187, frequency=4, skip=False, adjust=True
+    ShadowAssault, direction=up, jump=False
+*, x=0.196, y=0.098, frequency=4, skip=False, adjust=True
+    DarkFlare
+    Wait, duration=2
+*, x=0.196, y=0.098, frequency=4, skip=False, adjust=True
+    ShadowAssault, direction=down, jump=False
+    ShadowAssault, direction=right, jump=False
+*, x=0.240, y=0.187, frequency=1, skip=True, adjust=False
+    CruelStabRandomDirection
+    MesoExplosion
+*, x=0.360, y=0.187, frequency=1, skip=True, adjust=False
+    CruelStabRandomDirection
+*, x=0.631, y=0.187, frequency=1, skip=True, adjust=False
+    CruelStabRandomDirection
+*, x=0.773, y=0.187, frequency=1, skip=True, adjust=False
+    CruelStabRandomDirection
+    MesoExplosion
+*, x=0.889, y=0.187, frequency=1, skip=True, adjust=False
+    CruelStabRandomDirection
+*, x=0.956, y=0.187, frequency=1, skip=True, adjust=False
+    CruelStabRandomDirection
+    MesoExplosion
+*, x=0.800, y=0.187, frequency=1, skip=True, adjust=False
+    CruelStabRandomDirection
+*, x=0.658, y=0.187, frequency=1, skip=True, adjust=False
+    CruelStabRandomDirection
+    MesoExplosion
+*, x=0.533, y=0.187, frequency=1, skip=True, adjust=False
+    CruelStabRandomDirection
+    SuddenRaid
+*, x=0.360, y=0.187, frequency=4, skip=False, adjust=True
+    CruelStabRandomDirection
+    MesoExplosion
+    ShadowVeil
+*, x=0.222, y=0.187, frequency=1, skip=True, adjust=False
+    CruelStabRandomDirection
+*, x=0.111, y=0.187, frequency=1, skip=True, adjust=False
+    CruelStabRandomDirection
+    MesoExplosion
