@@ -1,11 +1,10 @@
 *, x=0.210, y=0.187, frequency=4, skip=False, adjust=True
     ShadowAssault, direction=up, jump=False
 *, x=0.196, y=0.098, frequency=4, skip=False, adjust=True
-    DarkFlare
     Wait, duration=2
+    DarkFlare
 *, x=0.196, y=0.098, frequency=4, skip=False, adjust=True
-    ShadowAssault, direction=down, jump=False
-    ShadowAssault, direction=right, jump=False
+    ShadowAssault, direction=down, jump=True
 *, x=0.240, y=0.187, frequency=1, skip=True, adjust=False
     CruelStabRandomDirection
     MesoExplosion
@@ -13,6 +12,8 @@
     CruelStabRandomDirection
 *, x=0.631, y=0.187, frequency=1, skip=True, adjust=False
     CruelStabRandomDirection
+    Wait, duration=0.2
+    TrickBlade, direction=right
 *, x=0.773, y=0.187, frequency=1, skip=True, adjust=False
     CruelStabRandomDirection
     MesoExplosion
@@ -23,6 +24,8 @@
     MesoExplosion
 *, x=0.800, y=0.187, frequency=1, skip=True, adjust=False
     CruelStabRandomDirection
+    Wait, duration=0.2
+    TrickBlade, direction=right
 *, x=0.658, y=0.187, frequency=1, skip=True, adjust=False
     CruelStabRandomDirection
     MesoExplosion
@@ -38,3 +41,5 @@
 *, x=0.111, y=0.187, frequency=1, skip=True, adjust=False
     CruelStabRandomDirection
     MesoExplosion
+    Wait, duration=0.2
+    TrickBlade, direction=left
