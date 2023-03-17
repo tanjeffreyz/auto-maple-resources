@@ -1,0 +1,47 @@
+
+@, label=Summoning
+*, x=0.351, y=0.161, frequency=6, skip=False, adjust=false
+    ShadowVeil, direction=right
+*, x=0.650, y=0.220, frequency=6, skip=false, adjust=False
+    ShadowAssault, direction=up, jump=true
+*, x=0.875, y=0.178, frequency=6, skip=False, adjust=True
+    Adjust, x=0.850, y=0.178, max_steps=1
+    Wait, duration=1.5
+    DarkFlare, direction=left
+    Wait, duration=0.5
+    ShadowAssault, direction=left, jump=False
+*, x=0.400, y=0.161, frequency=6, skip=False, adjust=true
+    Adjust, x=0.360, y=0.161, max_steps=1
+    Wait, duration=0.5
+    ErdaShower, direction=down, jump=False
+    Wait, duration=0.5
+    ShadowAssault, direction=down, jump=true
+
+@, label=Mobbing
+*, x=0.260, y=0.259, frequency=1, skip=False, adjust=False
+    CruelStabRandomDirection
+*, x=0.270, y=0.207, frequency=1, skip=true, adjust=False
+    MesoExplosion
+*, x=0.362, y=0.259, frequency=1, skip=False, adjust=False
+    CruelStabRandomDirection
+*, x=0.443, y=0.207, frequency=1, skip=true, adjust=False
+    MesoExplosion
+*, x=0.546, y=0.259, frequency=1, skip=False, adjust=False
+    CruelStabRandomDirection
+*, x=0.644, y=0.207, frequency=1, skip=true, adjust=False
+    MesoExplosion
+    Wait, duration=1
+*, x=0.650, y=0.259, frequency=1, skip=False, adjust=False
+    CruelStabRandomDirection
+    Wait, duration=2
+*, x=0.650, y=0.259, frequency=12, skip=true, adjust=False
+    Adjust, x=0.910, y=0.259, max_steps=10
+*, x=0.644, y=0.207, frequency=1, skip=true, adjust=False
+    MesoExplosion
+*, x=0.546, y=0.259, frequency=1, skip=False, adjust=False
+    CruelStabRandomDirection
+    SuddenRaid
+*, x=0.443, y=0.207, frequency=1, skip=true, adjust=False
+    MesoExplosion
+*, x=0.362, y=0.259, frequency=1, skip=False, adjust=False
+    CruelStabRandomDirection

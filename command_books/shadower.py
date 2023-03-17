@@ -279,26 +279,35 @@ class ShadowVeil(Command):
 
 class ErdaShower(Command):
     """
-    Uses 'ErdaShower' in a given direction, or down if
-    no direction is specified.
+    Use ErdaShower in a given direction, Placing ErdaFountain if specified. Adds the player's position
+    to the current Layout if necessary.
     """
 
-    def __init__(self, direction=None):
+    def __init__(self, direction, jump='False'):
         super().__init__(locals())
-        if direction is None:
-            self.direction = 'down'
-        else:
-            self.direction = settings.validate_horizontal_arrows(direction)
+        self.direction = settings.validate_arrows(direction)
+        self.jump = settings.validate_boolean(jump)
 
     def main(self):
-        if self.direction:
-            press(self.direction, 1, down_time=0.1, up_time=0.05)
-        else:
-            if config.player_pos[0] > 0.5:
-                press('down', 1, down_time=0.1, up_time=0.05)
+        num_presses = 3
+        time.sleep(0.05)
+        if self.direction in ['up', 'down']:
+            num_presses = 2
+        if self.direction != 'up':
+            key_down(self.direction)
+            time.sleep(0.05)
+        if self.jump:
+            if self.direction == 'down':
+                press(Key.JUMP, 3, down_time=0.1)
             else:
-                press('down', 1, down_time=0.1, up_time=0.05)
-        press(Key.ERDA_SHOWER, 3)
+                press(Key.JUMP, 1)
+        if self.direction == 'up':
+            key_down(self.direction)
+            time.sleep(0.05)
+        press(Key.ERDA_SHOWER, num_presses)
+        key_up(self.direction)
+        if settings.record_layout:
+	        config.layout.add(*config.player_pos)
 
 
 class SuddenRaid(Command):
@@ -315,9 +324,26 @@ class Arachnid(Command):
         press(Key.ARACHNID, 3)
 
 class TrickBlade(Command):
-    """Uses 'TrickBlade' once."""
+    """
+    Uses 'TrickBlade' in a given direction, or towards the center of the map if
+    no direction is specified.
+    """
+
+    def __init__(self, direction=None):
+        super().__init__(locals())
+        if direction is None:
+            self.direction = direction
+        else:
+            self.direction = settings.validate_horizontal_arrows(direction)
 
     def main(self):
+        if self.direction:
+            press(self.direction, 1, down_time=0.1, up_time=0.05)
+        else:
+            if config.player_pos[0] > 0.5:
+                press('left', 1, down_time=0.1, up_time=0.05)
+            else:
+                press('right', 1, down_time=0.1, up_time=0.05)
         press(Key.TRICKBLADE, 3)
 
 class SlashShadowFormation(Command):

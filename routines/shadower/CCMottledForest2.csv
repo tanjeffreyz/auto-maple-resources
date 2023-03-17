@@ -1,0 +1,50 @@
+
+@, label=Placing summons
+*, x=0.280, y=0.359, frequency=8, skip=False, adjust=False
+    ShadowAssault, direction=up, jump=True
+*, x=0.190, y=0.196, frequency=8, skip=False, adjust=True
+    Wait, duration=0.5
+    DarkFlare, direction=left
+    Wait, duration=0.2
+    ShadowAssault, direction=down, jump=True
+*, x=0.176, y=0.359, frequency=8, skip=False, adjust=False
+    MesoExplosion
+    CruelStabRandomDirection
+*, x=0.353, y=0.359, frequency=8, skip=False, adjust=False
+    CruelStabRandomDirection
+*, x=0.523, y=0.359, frequency=8, skip=False, adjust=False
+    CruelStabRandomDirection
+    MesoExplosion
+*, x=0.690, y=0.359, frequency=8, skip=False, adjust=False
+    ShadowAssault, direction=up, jump=True
+*, x=0.745, y=0.196, frequency=8, skip=False, adjust=True
+    Wait, duration=0.5
+    ErdaShower, direction=down, jump=False
+    Wait, duration=1
+    ShadowAssault, direction=down, jump=True
+*, x=0.797, y=0.359, frequency=8, skip=False, adjust=False
+    ShadowVeil, direction=right
+    Wait, duration=0.1
+    MesoExplosion
+
+@, label=Bottom mobbing
+*, x=0.797, y=0.359, frequency=1, skip=False, adjust=False
+    CruelStabRandomDirection
+    TrickBlade, direction=right
+*, x=0.621, y=0.359, frequency=1, skip=False, adjust=False
+    CruelStabRandomDirection
+    SuddenRaid
+    MesoExplosion
+*, x=0.399, y=0.359, frequency=1, skip=False, adjust=False
+    CruelStabRandomDirection
+    SlashShadowFormation
+*, x=0.229, y=0.359, frequency=1, skip=False, adjust=False
+    CruelStabRandomDirection
+    SuddenRaid
+    MesoExplosion
+    Wait, duration=1
+*, x=0.399, y=0.359, frequency=1, skip=False, adjust=False
+    CruelStabRandomDirection
+    MesoExplosion
+*, x=0.621, y=0.359, frequency=1, skip=False, adjust=False
+    CruelStabRandomDirection
