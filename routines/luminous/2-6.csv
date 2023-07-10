@@ -1,0 +1,40 @@
+*, x=0.629, y=0.484, frequency=1, skip=False, adjust=False
+    Reflection, direction=right, attacks=1, repetitions=1
+*, x=0.786, y=0.484, frequency=1, skip=False, adjust=False
+    Reflection, direction=left, attacks=1, repetitions=1
+*, x=0.780, y=0.358, frequency=1, skip=False, adjust=False
+    Reflection, direction=left, attacks=1, repetitions=1
+    ErdaShower, direction=down, jump=False
+*, x=0.767, y=0.270, frequency=1, skip=False, adjust=true
+    Reflection, direction=left, attacks=1, repetitions=1
+    Teleport, direction=up, jump=False
+*, x=0.654, y=0.270, frequency=1, skip=False, adjust=False
+    Reflection, direction=right, attacks=1, repetitions=1
+*, x=0.654, y=0.208, frequency=1, skip=False, adjust=false
+    Reflection, direction=left, attacks=1, repetitions=1
+*, x=0.654, y=0.126, frequency=1, skip=False, adjust=False
+    Reflection, direction=left, attacks=1, repetitions=1
+*, x=0.591, y=0.126, frequency=1, skip=False, adjust=False
+    Reflection, direction=left, attacks=1, repetitions=1
+*, x=0.45, y=0.126, frequency=1, skip=False, adjust=False
+    Reflection, direction=left, attacks=1, repetitions=1
+*, x=0.421, y=0.189, frequency=1, skip=False, adjust=False
+    Reflection, direction=left, attacks=1, repetitions=1
+*, x=0.321, y=0.189, frequency=1, skip=False, adjust=False
+    Reflection, direction=left, attacks=1, repetitions=1
+*, x=0.201, y=0.189, frequency=1, skip=False, adjust=False
+    Reflection, direction=right, attacks=1, repetitions=1
+    Fall, distance=0.0375
+*, x=0.201, y=0.289, frequency=1, skip=False, adjust=False
+    Reflection, direction=right, attacks=1, repetitions=1
+*, x=0.252, y=0.289, frequency=1, skip=False, adjust=true
+*, x=0.252, y=0.365, frequency=1, skip=False, adjust=False
+    ErdaShower, direction=down, jump=False
+    Fall, distance=0.0375
+*, x=0.252, y=0.484, frequency=1, skip=False, adjust=False
+    Reflection, direction=left, attacks=1, repetitions=1
+*, x=0.333, y=0.484, frequency=1, skip=False, adjust=False
+*, x=0.421, y=0.484, frequency=1, skip=False, adjust=False
+    Reflection, direction=right, attacks=1, repetitions=1
+*, x=0.535, y=0.484, frequency=1, skip=False, adjust=False
+    Reflection, direction=left, attacks=1, repetitions=1

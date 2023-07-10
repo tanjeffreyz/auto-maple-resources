@@ -1,0 +1,55 @@
+*, x=0.477, y=0.508, frequency=1, skip=False, adjust=True
+    Equalize
+    Walk, direction=right, duration=.01
+    Reflection
+*, x=0.477, y=0.415, frequency=1, skip=False, adjust=False
+    Reflection
+*, x=0.477, y=0.318, frequency=1, skip=False, adjust=False
+    Reflection
+*, x=0.477, y=0.215, frequency=1, skip=False, adjust=False
+    Reflection
+*, x=0.477, y=0.144, frequency=1, skip=False, adjust=False
+*, x=0.477, y=0.097, frequency=1, skip=False, adjust=True
+    Walk, direction=left, duration=0.01
+    Reflection
+*, x=0.385, y=0.097, frequency=5, skip=False, adjust=False
+    Reflection
+*, x=0.385, y=0.144, frequency=5, skip=False, adjust=False
+    Reflection
+*, x=0.385, y=0.215, frequency=5, skip=False, adjust=True
+    Walk, direction=left, duration=.01
+    ErdaShower, direction=down, jump=False
+    Reflection
+*, x=0.467, y=0.215, frequency=1, skip=False, adjust=False
+    Reflection
+*, x=0.523, y=0.215, frequency=5, skip=False, adjust=False
+*, x=0.65, y=0.215, frequency=5, skip=False, adjust=True
+    Walk, direction=left, duration=.01
+    Reflection
+    Teleport, direction=down, jump=False
+*, x=0.65, y=0.308, frequency=5, skip=False, adjust=False
+    Walk, direction=left, duration=.01
+    Reflection
+*, x=0.55, y=0.308, frequency=5, skip=False, adjust=False
+    Reflection
+*, x=0.467, y=0.318, frequency=1, skip=False, adjust=False
+    GateOfLight
+    Reflection
+*, x=0.4, y=0.318, frequency=5, skip=False, adjust=True
+    Reflection
+*, x=0.4, y=0.415, frequency=5, skip=False, adjust=True
+    Walk, direction=right, duration=.01
+    Reflection
+*, x=0.467, y=0.415, frequency=1, skip=False, adjust=True
+    Reflection
+*, x=0.544, y=0.410, frequency=5, skip=False, adjust=False
+    Reflection
+    Teleport, direction=right, jump=False
+*, x=0.635, y=0.410, frequency=5, skip=False, adjust=True
+    Arachnid
+    Walk, direction=left, duration=0.01
+    Reflection
+    Teleport, direction=down, jump=False
+*, x=0.635, y=0.508, frequency=5, skip=False, adjust=False
+    Walk, direction=left, duration=.01
+    Reflection

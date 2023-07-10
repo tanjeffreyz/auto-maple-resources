@@ -1,0 +1,12 @@
+*, x=0.9, y=0.281, frequency=1, skip=False, adjust=False
+*, x=0.9, y=0.192, frequency=1, skip=False, adjust=False
+    LucidSoul, direction=left
+    Arachnid
+*, x=0.6, y=0.192, frequency=1, skip=False, adjust=False
+*, x=0.533, y=0.192, frequency=1, skip=False, adjust=False
+    ErdaShower, direction=down, jump=False
+*, x=0.132, y=0.180, frequency=1, skip=False, adjust=False
+*, x=0.168, y=0.281, frequency=1, skip=False, adjust=False
+*, x=0.419, y=0.281, frequency=1, skip=False, adjust=False
+*, x=0.629, y=0.281, frequency=1, skip=False, adjust=False
+*, x=0.790, y=0.281, frequency=1, skip=False, adjust=False

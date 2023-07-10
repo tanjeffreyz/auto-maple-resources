@@ -1,0 +1,17 @@
+*, x=0.914, y=0.178, frequency=1, skip=False, adjust=False
+    CruelStab, direction=left, attacks=2, repetitions=1
+*, x=0.776, y=0.178, frequency=1, skip=False, adjust=False
+    CruelStab, direction=left, attacks=2, repetitions=1
+*, x=0.540, y=0.178, frequency=1, skip=False, adjust=False
+    CruelStab, direction=left, attacks=2, repetitions=1
+    DarkFlare, direction=Left
+*, x=0.276, y=0.178, frequency=1, skip=False, adjust=False
+    CruelStab, direction=left, attacks=2, repetitions=1
+*, x=0.115, y=0.178, frequency=1, skip=False, adjust=False
+    CruelStab, direction=right, attacks=2, repetitions=1
+*, x=0.276, y=0.178, frequency=1, skip=False, adjust=False
+    CruelStab, direction=right, attacks=2, repetitions=1
+*, x=0.540, y=0.178, frequency=1, skip=False, adjust=False
+    CruelStab, direction=right, attacks=2, repetitions=1
+*, x=0.776, y=0.178, frequency=1, skip=False, adjust=False
+    CruelStab, direction=right, attacks=2, repetitions=1

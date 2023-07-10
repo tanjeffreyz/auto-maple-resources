@@ -1,0 +1,13 @@
+
+@, label=Main
+*, x=0.839, y=0.430, frequency=1, skip=False, adjust=False
+    FlashJump, direction=left
+    Cleave, direction=left, attacks=2, repetitions=1
+    MagicDispatch
+*, x=0.570, y=0.360, frequency=1, skip=False, adjust=False
+    Impale, direction=left, jump=False
+    Resonance, direction=left, jump=False
+*, x=0.140, y=0.430, frequency=1, skip=False, adjust=False
+*, x=0.312, y=0.430, frequency=1, skip=False, adjust=False
+*, x=0.500, y=0.430, frequency=1, skip=False, adjust=False
+*, x=0.694, y=0.430, frequency=1, skip=False, adjust=False

@@ -1,0 +1,35 @@
+*, x=0.849, y=0.497, frequency=1, skip=False, adjust=False
+    Reflection, direction=left, attacks=1, repetitions=1
+*, x=0.698, y=0.434, frequency=1, skip=False, adjust=True
+    Reflection, direction=left, attacks=1, repetitions=1
+*, x=0.654, y=0.321, frequency=1, skip=False, adjust=False
+    Reflection, direction=left, attacks=1, repetitions=1
+*, x=0.811, y=0.321, frequency=1, skip=False, adjust=True
+    Reflection, direction=left, attacks=1, repetitions=1
+*, x=0.786, y=0.252, frequency=1, skip=False, adjust=False
+    Reflection, direction=right, attacks=1, repetitions=1
+*, x=0.893, y=0.252, frequency=1, skip=False, adjust=False
+*, x=0.887, y=0.182, frequency=1, skip=False, adjust=True
+    Reflection, direction=left, attacks=1, repetitions=1
+*, x=0.6, y=0.182, frequency=1, skip=False, adjust=False
+    Reflection, direction=right, attacks=1, repetitions=1
+    Walk, direction=left, duration=2
+*, x=0.377, y=0.390, frequency=1, skip=False, adjust=False
+    Wait, duration=.1
+    Reflection, direction=left, attacks=1, repetitions=1
+*, x=0.258, y=0.390, frequency=1, skip=False, adjust=True
+    ErdaShower, direction=down, jump=False
+    Reflection, direction=left, attacks=1, repetitions=1
+*, x=0.258, y=0.314, frequency=1, skip=False, adjust=True
+    Reflection, direction=left, attacks=1, repetitions=1
+*, x=0.132, y=0.314, frequency=1, skip=False, adjust=True
+    Reflection, direction=right, attacks=1, repetitions=1
+*, x=0.189, y=0.415, frequency=1, skip=False, adjust=True
+*, x=0.258, y=0.497, frequency=1, skip=False, adjust=False
+    Reflection, direction=left, attacks=2, repetitions=1
+*, x=0.478, y=0.497, frequency=1, skip=False, adjust=False
+    ReflectionRandomDirection
+*, x=0.629, y=0.497, frequency=1, skip=False, adjust=False
+    ReflectionRandomDirection
+*, x=0.774, y=0.497, frequency=1, skip=False, adjust=False
+    ReflectionRandomDirection

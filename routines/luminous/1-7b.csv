@@ -1,0 +1,15 @@
+*, x=0.296, y=0.390, frequency=1, skip=False, adjust=False
+    ErdaShower, direction=down, jump=False
+    Reflection, direction=left, attacks=2, repetitions=1
+*, x=0.296, y=0.497, frequency=1, skip=False, adjust=False
+    ReflectionRandomDirection
+*, x=0.585, y=0.497, frequency=1, skip=False, adjust=False
+    ReflectionRandomDirection
+*, x=0.761, y=0.497, frequency=1, skip=False, adjust=False
+    RopeLift
+    Wait, duration=.1
+*, x=0.761, y=0.182, frequency=1, skip=False, adjust=False
+    Reflection, direction=right, attacks=2, repetitions=1
+    Reflection, direction=left, attacks=2, repetitions=1
+*, x=0.585, y=0.182, frequency=1, skip=False, adjust=False
+*, x=0.472, y=0.390, frequency=1, skip=False, adjust=False

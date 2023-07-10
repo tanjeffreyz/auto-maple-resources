@@ -126,12 +126,10 @@ class Buff(Command):
         now = time.time()
 
         if self.cd120_buff_time == 0 or now - self.cd120_buff_time > 120:
-	        press(Key.EPIC_ADVENTURE, 2)
-	        self.cd120_buff_time = now
+            self.cd120_buff_time = now
         if self.cd180_buff_time == 0 or now - self.cd180_buff_time > 180:
 	        self.cd180_buff_time = now
         if self.cd200_buff_time == 0 or now - self.cd200_buff_time > 200:
-	        press(Key.SHADOW_PARTNER, 2)
 	        self.cd200_buff_time = now
         if self.cd240_buff_time == 0 or now - self.cd240_buff_time > 240:
 	        self.cd240_buff_time = now

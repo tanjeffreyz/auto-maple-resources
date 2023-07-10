@@ -1,0 +1,39 @@
+
+@, label=Loop
+*, x=0.783, y=0.206, frequency=2, skip=False, adjust=False
+    Walk, direction=left, duration=0.1
+    ErdaShower, direction=down, jump=False
+*, x=0.783, y=0.206, frequency=1, skip=False, adjust=False
+    Walk, direction=left, duration=.01
+*, x=0.634, y=0.206, frequency=1, skip=False, adjust=True
+*, x=0.469, y=0.206, frequency=3, skip=False, adjust=False
+    Arachnid
+*, x=0.360, y=0.206, frequency=1, skip=False, adjust=True
+*, x=0.194, y=0.206, frequency=1, skip=False, adjust=False
+*, x=0.291, y=0.206, frequency=1, skip=False, adjust=True
+*, x=0.423, y=0.206, frequency=1, skip=False, adjust=False
+*, x=0.560, y=0.206, frequency=1, skip=False, adjust=True
+*, x=0.680, y=0.206, frequency=1, skip=False, adjust=False
+
+@, label=Loot
+*, x=0.840, y=0.206, frequency=3, skip=False, adjust=False
+*, x=0.834, y=0.314, frequency=3, skip=False, adjust=False
+*, x=0.697, y=0.314, frequency=3, skip=False, adjust=False
+*, x=0.577, y=0.314, frequency=3, skip=False, adjust=False
+*, x=0.434, y=0.314, frequency=3, skip=False, adjust=False
+*, x=0.303, y=0.314, frequency=3, skip=False, adjust=False
+*, x=0.206, y=0.314, frequency=3, skip=False, adjust=True
+*, x=0.206, y=0.206, frequency=3, skip=False, adjust=True
+    Teleport, direction=up, jump=False
+*, x=0.206, y=0.120, frequency=3, skip=False, adjust=True
+    Reflection
+*, x=0.309, y=0.109, frequency=3, skip=False, adjust=True
+    Reflection
+*, x=0.440, y=0.097, frequency=3, skip=False, adjust=True
+    Reflection
+*, x=0.543, y=0.091, frequency=3, skip=False, adjust=False
+    Reflection
+*, x=0.691, y=0.103, frequency=3, skip=False, adjust=False
+    Reflection
+*, x=0.829, y=0.103, frequency=3, skip=False, adjust=False
+    Reflection

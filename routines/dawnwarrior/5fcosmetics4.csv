@@ -1,0 +1,8 @@
+*, x=0.708, y=0.168, frequency=2, skip=False, adjust=False
+    DarkFlare, direction=left
+*, x=0.432, y=0.108, frequency=1, skip=False, adjust=False
+*, x=0.238, y=0.086, frequency=1, skip=False, adjust=False
+*, x=0.168, y=0.254, frequency=1, skip=False, adjust=False
+*, x=0.486, y=0.254, frequency=1, skip=False, adjust=False
+*, x=0.762, y=0.254, frequency=1, skip=False, adjust=False
+*, x=0.665, y=0.103, frequency=1, skip=False, adjust=False

@@ -1,0 +1,50 @@
+*, x=0.36, y=0.176, frequency=1, skip=False, adjust=True
+    GateOfLight
+    Reflection, direction=right, attacks=1, repetitions=1
+*, x=0.44, y=0.158, frequency=1, skip=False, adjust=False
+    Reflection, direction=right, attacks=1, repetitions=1
+*, x=0.52, y=0.158, frequency=1, skip=False, adjust=true
+    Reflection, direction=right, attacks=1, repetitions=1
+*, x=0.624, y=0.176, frequency=1, skip=False, adjust=False
+    LucidSoul, direction=right
+*, x=0.765, y=0.176, frequency=1, skip=False, adjust=False
+    Reflection, direction=left, attacks=1, repetitions=1
+*, x=0.765, y=0.258, frequency=1, skip=False, adjust=False
+    Reflection, direction=left, attacks=1, repetitions=1
+    Teleport, direction=down, jump=False
+*, x=0.765, y=0.326, frequency=1, skip=False, adjust=False
+*, x=0.692, y=0.326, frequency=1, skip=False, adjust=False
+    Reflection, direction=left, attacks=1, repetitions=1
+*, x=0.548, y=0.326, frequency=1, skip=False, adjust=False
+*, x=0.471, y=0.326, frequency=1, skip=False, adjust=False
+    ErdaShower, direction=down, jump=False
+*, x=0.389, y=0.326, frequency=1, skip=False, adjust=False
+    Reflection, direction=left, attacks=1, repetitions=1
+*, x=0.308, y=0.326, frequency=1, skip=False, adjust=False
+    Teleport, direction=up, jump=False
+*, x=0.303, y=0.258, frequency=1, skip=False, adjust=False
+    Reflection, direction=left, attacks=1, repetitions=1
+*, x=0.394, y=0.258, frequency=1, skip=False, adjust=false
+*, x=0.475, y=0.244, frequency=1, skip=False, adjust=False
+    Reflection, direction=right, attacks=1, repetitions=1
+*, x=0.54, y=0.244, frequency=1, skip=False, adjust=true
+*, x=0.710, y=0.258, frequency=1, skip=False, adjust=False
+    Reflection, direction=left, attacks=1, repetitions=1
+*, x=0.769, y=0.258, frequency=1, skip=False, adjust=False
+    Reflection, direction=left, attacks=1, repetitions=1
+*, x=0.769, y=0.176, frequency=1, skip=False, adjust=False
+    Reflection, direction=left, attacks=1, repetitions=1
+*, x=0.769, y=0.090, frequency=1, skip=False, adjust=False
+    Reflection, direction=left, attacks=1, repetitions=1
+*, x=0.697, y=0.090, frequency=1, skip=False, adjust=False
+    Reflection, direction=left, attacks=1, repetitions=1
+*, x=0.64, y=0.090, frequency=1, skip=False, adjust=True
+    Reflection, direction=left, attacks=1, repetitions=1
+*, x=0.548, y=0.072, frequency=1, skip=False, adjust=False
+    Reflection, direction=left, attacks=1, repetitions=1
+*, x=0.471, y=0.072, frequency=1, skip=False, adjust=False
+*, x=0.398, y=0.090, frequency=1, skip=False, adjust=False
+*, x=.31, y=0.090, frequency=1, skip=False, adjust=False
+    Arachnid
+*, x=0.226, y=0.176, frequency=1, skip=False, adjust=False
+    Reflection, direction=right, attacks=1, repetitions=1

@@ -1,0 +1,54 @@
+
+@, label=BOT
+*, x=0.790, y=0.281, frequency=1, skip=False, adjust=False
+    Reflection, direction=left, attacks=1, repetitions=1
+*, x=0.713, y=0.281, frequency=1, skip=False, adjust=False
+    Reflection, direction=left, attacks=1, repetitions=1
+*, x=0.611, y=0.281, frequency=1, skip=False, adjust=False
+    Reflection, direction=left, attacks=1, repetitions=1
+*, x=0.509, y=0.281, frequency=1, skip=False, adjust=False
+    Reflection, direction=left, attacks=1, repetitions=1
+*, x=0.413, y=0.281, frequency=1, skip=False, adjust=False
+    Reflection, direction=left, attacks=1, repetitions=1
+*, x=0.311, y=0.281, frequency=1, skip=False, adjust=true
+    Reflection, direction=left, attacks=1, repetitions=1
+*, x=0.311, y=0.192, frequency=1, skip=False, adjust=False
+    Reflection, direction=left, attacks=1, repetitions=1
+*, x=0.437, y=0.192, frequency=1, skip=False, adjust=False
+    Reflection, direction=right, attacks=1, repetitions=1
+*, x=0.545, y=0.192, frequency=1, skip=False, adjust=False
+    Reflection, direction=right, attacks=1, repetitions=1
+*, x=0.641, y=0.192, frequency=1, skip=False, adjust=False
+    Reflection, direction=right, attacks=1, repetitions=1
+*, x=0.713, y=0.192, frequency=1, skip=False, adjust=False
+    Reflection, direction=right, attacks=1, repetitions=1
+*, x=0.707, y=0.281, frequency=1, skip=False, adjust=False
+*, x=0.611, y=0.281, frequency=1, skip=False, adjust=False
+    Reflection, direction=left, attacks=1, repetitions=1
+*, x=0.515, y=0.281, frequency=1, skip=False, adjust=False
+    Reflection, direction=left, attacks=1, repetitions=1
+*, x=0.419, y=0.281, frequency=1, skip=False, adjust=False
+    Reflection, direction=left, attacks=1, repetitions=1
+*, x=0.317, y=0.281, frequency=1, skip=False, adjust=False
+    Reflection, direction=left, attacks=1, repetitions=1
+*, x=0.216, y=0.281, frequency=1, skip=False, adjust=False
+    Reflection, direction=left, attacks=1, repetitions=1
+*, x=0.108, y=0.281, frequency=1, skip=False, adjust=False
+    RopeLift
+
+@, label=TOP
+*, x=0.108, y=0.096, frequency=1, skip=False, adjust=False
+    Reflection, direction=right, attacks=1, repetitions=1
+*, x=0.210, y=0.096, frequency=1, skip=False, adjust=False
+    Reflection, direction=right, attacks=1, repetitions=1
+*, x=0.305, y=0.096, frequency=1, skip=False, adjust=true
+    Reflection, direction=right, attacks=1, repetitions=1
+*, x=0.401, y=0.096, frequency=1, skip=False, adjust=False
+    Reflection, direction=right, attacks=1, repetitions=1
+*, x=0.497, y=0.096, frequency=1, skip=False, adjust=False
+*, x=0.58, y=0.096, frequency=1, skip=False, adjust=true
+*, x=0.689, y=0.096, frequency=1, skip=False, adjust=False
+    Reflection, direction=right, attacks=1, repetitions=1
+*, x=0.790, y=0.096, frequency=1, skip=False, adjust=False
+    ErdaShower, direction=down, jump=False
+    Fall, distance=0.0375
