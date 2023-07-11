@@ -24,6 +24,7 @@ class Key:
     GLORY_OF_THE_GUARDIANS = '3'
     SPEED_INFUSION = '6'
     HOLY_SYMBOL = '7'
+    WEAPON_AURA = '4'
 
     # Skills
     SOLARSLASH_LUNADIVIDE = 'e' 
@@ -32,6 +33,8 @@ class Key:
     ARACHNID = 'h' 
     ERDA_SHOWER = 'c'
     COSMOS = 'a'
+    FORGE = 's'
+    RIFT = 'd'
 
 #########################
 #       Commands        #
@@ -56,7 +59,7 @@ def step(direction, target):
     press(Key.FLASH_JUMP, num_presses)
     print("Jump")
     press(Key.SOLARSLASH_LUNADIVIDE, 1)
-    press(Key.EQUINOX_SLASH, 1)
+    #press(Key.EQUINOX_SLASH, 1)
     print("Attack")
     time.sleep(0.5)
 
@@ -243,3 +246,21 @@ class RopeLift(Command):
 
     def main(self):
         press(Key.ROPE_LIFT, 2)
+
+class WeaponAura(Command):
+    """Uses 'Rope Lift' once."""
+
+    def main(self):
+        press(Key.WEAPON_AURA, 2)
+
+class AetherForge(Command):
+    """Uses 'Aether Forge' once."""
+
+    def main(self):
+        press(Key.FORGE, 2)
+
+class RiftOfDamnation(Command):
+    """Uses 'Rift Of Damnation' once."""
+
+    def main(self):
+        press(Key.RIFT, 2)
