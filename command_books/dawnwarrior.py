@@ -258,13 +258,13 @@ class AetherForge(Command):
     """Uses 'Aether Forge' once."""
 
     def main(self):
-        press(Key.FORGE, 2)
+        press(Key.FORGE, 3)
 
 class RiftOfDamnation(Command):
     """Uses 'Rift Of Damnation' once."""
 
     def main(self):
-        press(Key.RIFT, 2)
+        press(Key.RIFT, 3)
 class BlazingAssaultLusterCharge(Command):
     """Uses 'Blazing Assault/Luster Charge' once."""
 
