@@ -1,0 +1,15 @@
+*, x=0.803, y=0.264, frequency=4, skip=False, adjust=False
+    RopeLift
+*, x=0.865, y=0.188, frequency=5, skip=False, adjust=True
+    CosmicShower
+*, x=0.269, y=0.264, frequency=1, skip=False, adjust=False
+    Cosmos
+*, x=0.356, y=0.159, frequency=1, skip=False, adjust=False
+    Arachnid
+*, x=0.548, y=0.264, frequency=4, skip=False, adjust=False
+    RopeLift
+*, x=0.500, y=0.058, frequency=4, skip=False, adjust=False
+*, x=0.519, y=0.125, frequency=1, skip=False, adjust=True
+    ErdaShower, direction=down, jump=False
+*, x=0.495, y=0.192, frequency=4, skip=False, adjust=False
+*, x=0.635, y=0.264, frequency=1, skip=False, adjust=False

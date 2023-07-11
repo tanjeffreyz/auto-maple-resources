@@ -55,7 +55,8 @@ def step(direction, target):
             press(Key.JUMP, 2)
     press(Key.FLASH_JUMP, num_presses)
     print("Jump")
-    press(Key.CRUEL_STAB, 1)
+    press(Key.SOLARSLASH_LUNADIVIDE, 1)
+    press(Key.EQUINOX_SLASH, 1)
     print("Attack")
     time.sleep(0.5)
 
@@ -224,6 +225,12 @@ class Arachnid(Command):
 
     def main(self):
         press(Key.ARACHNID, 3)
+
+class CosmicShower(Command):
+    """Uses 'Cosmic Shower' once."""
+
+    def main(self):
+        press(Key.COSMIC_SHOWER, 2)
 
 class EquinoxSlash(Command):
     """Uses 'Equinox Slash' once."""
