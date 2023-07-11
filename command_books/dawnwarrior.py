@@ -18,6 +18,7 @@ class Key:
     FLASH_JUMP = 'space' 
     EQUINOX_SLASH = 'shift'
     ROPE_LIFT = 'v'
+    BLAZELUSTER = 'r'
 
     # Buffs
     CALL_OF_CYGNUS = '2' 
@@ -59,6 +60,7 @@ def step(direction, target):
     press(Key.FLASH_JUMP, num_presses)
     print("Jump")
     press(Key.SOLARSLASH_LUNADIVIDE, 1)
+    press(Key.BLAZELUSTER, 1)
     #press(Key.EQUINOX_SLASH, 1)
     print("Attack")
     time.sleep(0.5)
@@ -127,11 +129,10 @@ class Buff(Command):
 
     def main(self):
         #decent skills in buffs
-        buffs = [Key.SPEED_INFUSION, Key.HOLY_SYMBOL]
+        buffs = [Key.SPEED_INFUSION, Key.HOLY_SYMBOL, Key.WEAPON_AURA]
         now = time.time()
         
         if self.cd90_buff_time == 0 or now - self.cd90_buff_time > 90:
-            press(Key.COSMOS, 2)
             self.cd90_buff_time = now
         if self.cd120_buff_time == 0 or now - self.cd120_buff_time > 120:
             press(Key.GLORY_OF_THE_GUARDIANS, 2)
@@ -264,3 +265,8 @@ class RiftOfDamnation(Command):
 
     def main(self):
         press(Key.RIFT, 2)
+class BlazingAssaultLusterCharge(Command):
+    """Uses 'Blazing Assault/Luster Charge' once."""
+
+    def main(self):
+        press(Key.BLAZELUSTER, 2)

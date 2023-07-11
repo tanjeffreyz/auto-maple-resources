@@ -1,8 +1,10 @@
 *, x=0.803, y=0.264, frequency=2, skip=False, adjust=False
     RopeLift
     Wait, duration=2
-*, x=0.865, y=0.188, frequency=2, skip=False, adjust=True
+*, x=0.865, y=0.188, frequency=2, skip=False, adjust=False
     CosmicShower
+    AetherForge
+    RiftOfDamnation
 *, x=0.269, y=0.264, frequency=1, skip=False, adjust=False
     Cosmos
 *, x=0.356, y=0.159, frequency=1, skip=False, adjust=False
